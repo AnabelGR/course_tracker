@@ -15,27 +15,27 @@ $(document).ready(function() {
 
   if (resultCSS) {
     $(".option").hide();
-    $("#CSS").show();
+    $("#CSS").fadeIn();
   }
   else if (resultDesign) {
     $(".option").hide();
-    $("#webDesign").show();
+    $("#webDesign").fadeIn();
   }
   else if (resultCsharp) {
     $(".option").hide();
-    $("#cSharp").show();
+    $("#cSharp").fadeIn();
   }
   else if (resultJava) {
     $(".option").hide();
-    $("#Java").show();
+    $("#Java").fadeIn();
   }
   else if (resultPhP) {
     $(".option").hide();
-    $("#PHP").show();
+    $("#PHP").fadeIn();
   }
   else if (resultRuby) {
     $(".option").hide();
-    $("#Ruby").show();
+    $("#Ruby").fadeIn();
   }
   else {
     $(".option").hide();

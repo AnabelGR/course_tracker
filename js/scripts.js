@@ -7,15 +7,24 @@ $(document).ready(function() {
   var question4 = parseInt($("input:radio[name=answer4]:checked").val());
   var question5 = parseInt($("input:radio[name=answer5]:checked").val());
   var resultQuestion1 = question1 === 1;
+  var resultQuestion1a = question1 === 10;
 
 
-   if (resultQuestion1 + question2 === 2) {
-     $(".option").hide();
-     $("#CSS").show();
-   }
-  //  else if (resultQuestion1 + question2 === 3) {
-  //     $(".option").hide();
-  //     $("#webDesign").show();
-  //   }
+  if (resultQuestion1 + question2 === 2) {
+    $(".option").hide();
+    $("#CSS").show();
+  }
+  else if (resultQuestion1 + question2 === 3) {
+    $(".option").hide();
+    $("#webDesign").show();
+  }
+  // else if (resultQuestion1a + question3 === 15) {
+  //   $(".option").hide();
+  //   $("#cSharp").show();
+  // }
+  // else if (resultQuestion1a + question5 === 20) {
+  //   $(".option").hide();
+  //   $("#Java").show();
+  // }
   });
 });

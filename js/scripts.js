@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".formOne").submit (function(event) {
   event.preventDefault();
+  var nameInput = $("input#name").val();
   var question1 = parseInt($("input:radio[name=answer1]:checked").val());
   var question2 = parseInt($("input:radio[name=answer2]:checked").val());
   var question3 = parseInt($("input:radio[name=answer3]:checked").val());
@@ -39,7 +40,8 @@ $(document).ready(function() {
   }
   else {
     $(".option").hide();
-    $("#pleasechoose").show();
+    $("#pleasechoose").fadeIn();
   }
+  $(".name").text(nameInput);
   });
 });

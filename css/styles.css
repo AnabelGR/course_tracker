@@ -13,6 +13,14 @@ h1, h3, p {
   font-weight: bolder;
 }
 
+h3 {
+  text-align: center;
+}
+
+.form-group {
+  width: 300px;
+}
+
 .jumbotron {
     color: white;
     background-color: #205151;

@@ -1,0 +1,13 @@
+
+
+#emphasize {
+  font-weight: bolder;
+}
+
+.responses {
+  display: none;
+}
+
+p {
+  font-size: 10px;
+}

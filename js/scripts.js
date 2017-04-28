@@ -6,33 +6,36 @@ $(document).ready(function() {
   var question3 = parseInt($("input:radio[name=answer3]:checked").val());
   var question4 = parseInt($("input:radio[name=answer4]:checked").val());
   var question5 = parseInt($("input:radio[name=answer5]:checked").val());
-  var resultQuestion1 = question1 === 1;
-  var resultQuestion11 = question1 === 10;
+  var resultCSS = question1 + question2 === 2;
+  var resultDesign = question1 + question2 === 3;
+  var resultCsharp = question1 + question3 === 15;
+  var resultJava = question1 + question3 === 20;
+  var resultPhP = question1 + question3 === 25;
+  var resultRuby = question1 + question3 === 30;
 
-
-  if (resultQuestion1 + question2 <=2) {
+  if (resultCSS) {
     $(".option").hide();
     $("#CSS").show();
   }
-  else if (resultQuestion1 + question2 <=3) {
+  else if (resultDesign) {
     $(".option").hide();
     $("#webDesign").show();
   }
-  else if (resultQuestion11 + question3 <=15) {
+  else if (resultCsharp) {
     $(".option").hide();
     $("#cSharp").show();
-  // }
-  // else if (resultQuestion11 + question3 <=20) {
-  //   $(".option").hide();
-  //   $("#Java").show();
-  // }
-  // else if (resultQuestion11 + question3 <=25) {
-  //   $(".option").hide();
-  //   $("#PHP").show();
-  // }
-  // else if (resultQuestion11 + question3 <=30) {
-  //   $(".option").hide();
-  //   $("#Ruby").show();
+  }
+  else if (resultJava) {
+    $(".option").hide();
+    $("#Java").show();
+  }
+  else if (resultPhP) {
+    $(".option").hide();
+    $("#PHP").show();
+  }
+  else if (resultRuby) {
+    $(".option").hide();
+    $("#Ruby").show();
   }
   else {
     $(".option").hide();

@@ -12,7 +12,7 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Choosing a course track.</h1>
-        <p>Answer the following survey to help determine which course track would best suits your interests.</p>
+        <p>Answer the following survey to help determine which track at Epicodus would best suits your interests.</p>
       </div>
     </div>
 
@@ -20,12 +20,12 @@
       <div class="formOne">
         <form>
           <div class="form-group">
-            <label for="name">First name:</label>
+            <label for="name">Before we get started, what's your name?</label>
             <input type="text" class="form-control" id="name">
           </div>
           <div class="radio" id="question1">
             <h3>Are you interested in front-end or back-end development?</h3>
-              <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job. So don't stress too much about making the right choice of language to learn!</p>
+              <p id="radio-question1">Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job.</p>
               <label>
                 <input type="radio" name="answer1" value="1">
                 Front-end development
@@ -53,7 +53,7 @@
           </div>
 
           <div class="radio" id="question3">
-            <h3>Which of the following areas do you want your programming language to specialize in?</h3>
+            <h3>Which of the following would you want to specialize in?</h3>
             <label>
               <input type="radio" name="answer3" value="5">
               A programming language with a long history of use.
@@ -107,7 +107,7 @@
           <div class="radio" id="question5">
             <h3>In what type of workplace do you see yourself working?</h3>
             <label>
-              <input type="radio" name="answer5" value="5">20
+              <input type="radio" name="answer5" value="5">
               A large company or business.
             </label>
           </div>
@@ -137,37 +137,37 @@
         <div class="option" id="CSS">
           <h3><span class="name"></span> would do well in the CSS track.</h3>
             <p>CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="webDesign">
           <h3><span class="name"></span> would do well in the Web Design track.</h3>
             <p>Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="cSharp">
           <h3><span class="name"></span> would do well in the C# track.</h3>
             <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="Java">
           <h3><span class="name"></span> would do well in the Java track.</h3>
             <p>Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="PHP">
           <h3><span class="name"></span> would do well in the PHP track.</h3>
             <p>PHP is most used in content-heavy websites with relatively little user interaction. The most popular content management systems - Wordpress, Drupal, and Joomla - are all written in PHP, and everything from local restaurants' websites up through large complex government deployments are built with these tools. If you're keen to work for an agency that builds websites for clients, or if you like the idea of building out sites for brands, businesses, and organizations, PHP is a great direction to go.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="Ruby">
           <h3><span class="name"></span> would do well in the Ruby track.</h3>
             <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
 
             <p>Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.</p>
-            <p id="emphasize">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+            <p>The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
         </div>
         <div class="option" id="pleasechoose">
-          <h3>Please select your answers above.</h3>
+          <h3>Please fill in the survey above.</h3>
             <p>Thank you.</p>
         </div>
       </div>

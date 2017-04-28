@@ -19,11 +19,13 @@ h3 {
 
 .form-group {
   width: 300px;
+  margin: 0 auto;
 }
 
 .jumbotron {
     color: white;
     background-color: #205151;
+    text-align: center;
 }
 
 .option {
@@ -32,10 +34,11 @@ h3 {
   padding: 20px;
 }
 
-#emphasize {
-  font-weight: bolder;
-}
-
 #button {
   text-align: center;
+}
+
+#radio-question1 {
+  text-align: center;
+  font-style: italic;
 }
